@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Space Soldier Survival</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site do Diego Kume">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/icone999.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9+Charted&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html.html" title="Home">
+        <img src="imagens/1.png" alt="Space Soldier Surival" title="Capa"
+            class="imagem">
+    </a>    
+            <nav>
+                <ul>
+                    <li></li>
+                        <a href="#inicio" title="inicio">Home</a>
+                    <li></li>
+                        <a href="#jogo" title="Sobre o Jogo">Sobre o Jogo</a>
+
+                    <li></li>
+                        <a href="#sobre-mim" title="Sobre mim">Sobre mim</a>
+                    <li></li>
+                    <a href="paginajogo.html" title="Jogar agora">Jogar</a>
+                    <li></li>
+                        <a href="#contato" title="Contato" >Contato</a>
+                </ul>
+            </nav>
+
+    </header>
+    <main>
+
+        <section id="inicio">
+            <div class="centro">
+                <h2>Sobre este site</h2>
+                <p> Este é o site oficial do jogo <strong><i>"Space Soldier Survival"</i></strong>, aqui você poderá ver informações sobre o jogo e tambem será possível joga-lo. O site tambem contém informações sobre o desenvolvedor e há tambem uma aba de "Contato" em que é possível entrar em contato com o desenvolvedor para dúvidas, feedback e tambem para parcerias. </p>
+            </section>
+                <!--Vou inserir imagens como grid aqui -->
+                
+            </div> <!-- Fechou a div classe dos que ficarão no centro-->
+
+
+            <section id="jogo">
+                <div class="centro">
+                    <h2>Space Soldier Survival</h2>
+
+                    <img class="banner" src="imagens/bannerjogo.PNG" title="Banner Jogo SSS" alt="Banner jogo SSS">
+                     <!-- Colocar a imagem do jogo-->
+                     <h3>Contexto do Jogo</h3>
+                     <p>
+                        O jogo se passa no contexto em que o nosso personagem, o Soldado Espacial, é obrigado a pousar em um planeta desconhecido após uma falha em sua aeronave, e após isso, decide explorar o planeta desconhecido e se vê obrigado a lutar pela sua sobrevivência pois alguns monstros alienígenas que habitam ali o enxergam como ameaça e decidem ataca-lo. 
+                     </p>
+                     <p>Caro Jogador, ajude o Soldado Espacial a explorar e sobreviver a este desafio com suas habilidades, passando pelos obstáculos e eliminando os inimigos no caminho para alcançar o objetivo que é uma nave espacial para ir para casa.</p>
+
+                     <h3>Desafios</h3>
+                     
+                     <p class="titulolava">Plataforma rodeada por lava</p>
+                     <img class="desafio1" src="imagens/plataformacomlava.PNG" title="Plataformas e lava" alt="Plataformas e lava">
+                     
+
+                     <p class="titulogrid">Inimigos</p>
+
+                     <div class="flex">
+                        
+                        <div class="flex-coluna">
+                            
+                            <img class="desafio2" src="imagens/Centipede.png" title="Centopéia Predadora" alt="Centopéia Predadora">
+                            <P>Centopéia Predadora</P>
+                        </div>
+
+                        <div class="flex-coluna">
+                            <img  class="desafio3" src="imagens/Big_bloated.png" title="Gósmico" alt="Gósmico ">
+                            <P>Gósmico</P>
+                        </div>
+
+
+                     </div>
+                </div>
+            </section>
+
+
+        </section> <!--inicio-->
+
+        <section id="sobre-mim">
+            
+           
+                <h2 id="titulosobremim">Sobre o desenvolvedor </h2>
+        
+            <div class="container">
+               
+                <!--Adicionar uma  foto minha-->
+                
+            <img src="imagens/diegofoto.jpg" title="Desenvolvedor Diego" alt="Desenvolvedor DIego" id="minhafoto">
+            <p id="minhadescricao">
+                Me chamo Diego <strong>Hisashi Dos Santos Kume</strong>, tenho 20 anos, moro em Mamborê, no Paraná e atualmente estou cursando o primeiro período de Tecnologia em Analíse e Desenvolvimento de Sistemas no Centro Universitário Integrado.
+           
+                Este é meu primeiro desenvolvimento de jogo e tambem o meu primeiro desenvolvimento de um site web.
+
+             </p>
+            
+
+            </div>
+        </div>
+        </section>
+
+    
+
+        <section id="contato">
+            <div class="centro">
+                <h2 id="entreemcontato">Entre em contato</h2>
+                <form name="formContato">
+                <label for="nome">Digite seu nome completo:</label>
+                <input type="text" name="nome" id="nome" required>
+                <br>
+                <label for="email">Digite seu email:</label>
+                <input type="email" nome="email" id="email" required>
+                <br>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required rows="10"></textarea>
+                <br>
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+           
+
+
+            </ul>
+            
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
